@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #f7b045;
+  --secondary-color: #4f4f53;
+  --thirdley-color: #cdcfd2;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Oleo Script";
+  src: local("Oleo Script"),
+    url("../fonts/OleoScript/OleoScript-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alegreya Sans - Regular";
+  src: local("Alegreya Sans - Regular"),
+    url("../fonts/AlegreyaSans/AlegreyaSans-Regular.ttf") format("truetype");
+}
+
+h1,
+h2 {
+  color: var(--primary-color);
+  font-family: "Oleo Script", serif;
+}
+
+h3,
+p {
+  font-family: "Alegreya Sans - Regular", serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3,
+.primary_text,
+.secondary_text {
+  color: var(--secondary-color);
+}
+
+.primary_text{
+    font-size: 15px;
+}
+
+.secondary_text {
+    font-size: 13px;
+}
+
+
+.control_labels {
+  color: var(--thirdley-color);
+  font-size: 11px;
+}
+
+
+.primary_button{
+    padding:10px 20px;
+    border-radius: 15px;
+    border:none;
+    background-color: var(--primary-color);
+    color: #f2f2ff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.primary_button:hover{
+    background-color: #f2f2ff;
+    color: var(--primary-color);
+}
