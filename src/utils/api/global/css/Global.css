@@ -8,6 +8,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Alegreya Sans - Regular", serif;
+}
+
+main{
+  margin-top:0px;
 }
 
 @font-face {
@@ -58,7 +63,7 @@ h3,
 
 .control_labels {
   color: var(--thirdley-color);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 
